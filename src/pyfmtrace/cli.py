@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
-from typing import List, Optional, Sequence
+from typing import Optional, Sequence
 
 from pyfmtrace.formatter import format_traceback
 from pyfmtrace.parser import parse_traceback

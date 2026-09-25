@@ -1,11 +1,10 @@
 from __future__ import annotations
 
 import sys
-from typing import Optional, Sequence
 
 from pyfmtrace.cli import cli_main
 from pyfmtrace.formatter import format_traceback
-from pyfmtrace.parser import parse_traceback, Frame, Traceback
+from pyfmtrace.parser import parse_traceback
 
 
 def _write_input(path: str, text: str) -> str:

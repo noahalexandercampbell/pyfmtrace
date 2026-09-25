@@ -59,8 +59,6 @@ pyfmtrace/
       cli.py
   tests/
     test_pyfmtrace.py
-  docs/
-    usage.md
 ```
 
 ## Tags

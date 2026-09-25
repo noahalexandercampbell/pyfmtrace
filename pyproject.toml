@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Parse, format, and analyze Python tracebacks from the terminal."
 readme = "README.md"
 license = { text = "MIT" }
+urls = { Repository = "https://github.com/noahalexandercampbell/pyfmtrace" }
 requires-python = ">=3.11"
 authors = [{ name = "ProjectCreationAgent" }]
 keywords = ["traceback", "debugging", "cli", "developer-tools"]
