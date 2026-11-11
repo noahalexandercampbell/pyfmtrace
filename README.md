@@ -48,19 +48,23 @@ pyfmtrace trace.txt --max-frames 5
 ## Project structure
 
 ```
-pyfmtrace/
-  pyproject.toml
-  README.md
-  src/
-    pyfmtrace/
-      __init__.py
-      parser.py
-      formatter.py
-      cli.py
-  tests/
-    test_pyfmtrace.py
+.github/
+  workflows/
+    ci.yml
+.gitignore
+LICENSE
+pyproject.toml
+README.md
+src/
+  pyfmtrace/
+    __init__.py
+    cli.py
+    formatter.py
+    parser.py
+tests/
+  test_pyfmtrace.py
 ```
 
 ## Tags
 
-`cli`, `debugging`, `traceback`, `developer-tools`, `python`, `parser`
+`cli`, `debugging`, `traceback`, `developer-tools`, `python`, `traceback-parser`
